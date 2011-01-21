@@ -4,9 +4,9 @@ all:
   doctrine:
     class:        sfDoctrineDatabase
     param:
-      dsn:        mysql:dbname=asandbox;host=localhost
-      username: root
-      password: root
+      dsn:        mysql:dbname=<%dbName%>;host=<%dbHost%>
+      username: <%dbUser%>
+      password: <%dbPass%>
       # You need these for non-latin character sets and full I18N
       encoding: utf8
       attributes:

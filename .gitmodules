@@ -1,0 +1,3 @@
+[submodule "plugins/sfAutoconfigPlugin"]
+	path = plugins/sfAutoconfigPlugin
+	url = https://github.com/Cassus/sfAutoconfigPlugin.git

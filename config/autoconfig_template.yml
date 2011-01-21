@@ -1,0 +1,10 @@
+autoconfig:
+  dbHost: localhost
+  dbName: szi-www
+  dbUser: szi-www
+  dbPass: pass
+  
+  # honnan legyen elerheto a _dev felulet
+  # eles szerveren ne legyen elerheto (~ = null)
+  # example: 127.0.0.1,::1
+  devControllerAllowedHosts: ~

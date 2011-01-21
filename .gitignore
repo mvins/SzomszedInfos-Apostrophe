@@ -8,3 +8,4 @@
 /log/*
 /config/autoconfig.yml
 /data/sql
+/data/a_writable/*
