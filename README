@@ -1,6 +1,16 @@
-# Apostrophe
+Installation
+============
 
-Welcome to Apostrophe! 
-
-For complete and extensive documentation of Apostrophe please visit
-[trac.apostrophenow.org](http://trac.apostrophenow.org/wiki/ManualOverview). There you'll find a complete manual organized much more conveniently than is possible with a README file.
+    git clone ...
+    cd www
+    git submodule update --init --recursive
+    cp config/autoconfig_template.yml config/autoconfig.yml
+    #create database user and edit config/autoconfig.yml
+    $EDITOR config/autoconfig.yml
+    mkdir log cache
+    ./symfony cc
+    ./symfony project:permissions
+    ./symfony project:autoconfig config/autoconfig.yml
+    ./symfony plugin:publish-assets
+    ./symfony doctrine:build --db --and-load
+    ./symfony apostrophe:rebuild-search-index --env=dev

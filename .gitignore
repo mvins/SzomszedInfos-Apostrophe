@@ -1,0 +1,10 @@
+*.rej
+*~
+/cache/*
+/web/uploads/*
+/config/databases.yml
+/nbproject/private/
+/web/*_dev.php
+/log/*
+/config/autoconfig.yml
+/data/sql
