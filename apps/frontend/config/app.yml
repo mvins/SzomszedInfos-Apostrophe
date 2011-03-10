@@ -28,8 +28,8 @@ all:
     persistent_global_toolbar: true # false if you want to hide the global toolbar to logged-out visitors
     
     # If true, there will be a language switcher next to the login/logout button
-    i18n_switch: true
-    i18n_languages: [en, fr, de, es, ru]
+    # i18n_switch: true
+    # i18n_languages: [en, fr, de, es, ru]
 
     # By default new slots in an area go to the top, you can change that here
     # new_slots_top: false
