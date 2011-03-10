@@ -22,31 +22,6 @@
    style="display:inline;enable-background:new">
   <defs
      id="defs4">
-    <marker
-       inkscape:stockid="Arrow1Lend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="Arrow1Lend"
-       style="overflow:visible;">
-      <path
-         id="path5005"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
-         transform="scale(0.8) rotate(180) translate(12.5,0)" />
-    </marker>
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 360 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="980 : 360 : 1"
-       inkscape:persp3d-origin="490 : 240 : 1"
-       id="perspective232" />
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#pattern3036"
-       id="pattern3081"
-       patternTransform="translate(0,4.7412109e-6)" />
     <linearGradient
        id="linearGradient3855">
       <stop
@@ -113,50 +88,6 @@
        id="path-effect3948"
        is_visible="true" />
     <linearGradient
-       id="linearGradient4232">
-      <stop
-         style="stop-color:#1f6601;stop-opacity:0.25128207;"
-         offset="0"
-         id="stop4234" />
-      <stop
-         style="stop-color:#1f6601;stop-opacity:1;"
-         offset="1"
-         id="stop4236" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient4185">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.54358977;"
-         offset="0"
-         id="stop4187" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.11891892;"
-         offset="1"
-         id="stop4189" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient4032">
-      <stop
-         style="stop-color:#26750d;stop-opacity:1;"
-         offset="0"
-         id="stop4034" />
-      <stop
-         style="stop-color:#123906;stop-opacity:1;"
-         offset="1"
-         id="stop4036" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2917">
-      <stop
-         style="stop-color:#2e990d;stop-opacity:1;"
-         offset="0"
-         id="stop2919" />
-      <stop
-         style="stop-color:#193d05;stop-opacity:1;"
-         offset="1"
-         id="stop2921" />
-    </linearGradient>
-    <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5989"
        id="linearGradient5987"
@@ -217,198 +148,6 @@
        y2="0" />
     <filter
        inkscape:collect="always"
-       id="filter5361-89"
-       x="-0.21889251"
-       width="1.437785"
-       y="-0.21889251"
-       height="1.437785"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="27.361564"
-         id="feGaussianBlur5363-6" />
-    </filter>
-    <linearGradient
-       id="linearGradient2878-6"
-       spreadMethod="pad"
-       gradientTransform="matrix(-1.53e-5,244.08838,244.08838,1.53e-5,257.97559,184.28027)"
-       gradientUnits="userSpaceOnUse"
-       y2="0"
-       x2="1"
-       y1="0"
-       x1="0">
-      <stop
-         id="stop2880-4"
-         offset="0"
-         style="stop-color:#4fff03;stop-opacity:1;" />
-      <stop
-         id="stop2882-0"
-         offset="1"
-         style="stop-color:#0b6e0b;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       x1="0"
-       y1="0"
-       x2="1"
-       y2="0"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1.53e-5,244.08838,244.08838,1.53e-5,257.97559,184.28027)"
-       spreadMethod="pad"
-       id="linearGradient5123-4">
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="0"
-         id="stop5125-5" />
-      <stop
-         id="stop5133-4"
-         offset="0.26851872"
-         style="stop-color:#000000;stop-opacity:0.03783784;" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0.40000001;"
-         offset="0.54138172"
-         id="stop5135-6" />
-      <stop
-         id="stop5979-6"
-         offset="0.76116705"
-         style="stop-color:#000000;stop-opacity:0.58823532;" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0.59215689;"
-         offset="1"
-         id="stop5127-3" />
-    </linearGradient>
-    <filter
-       inkscape:collect="always"
-       id="filter5433-9"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="6.3452439"
-         id="feGaussianBlur5435-9" />
-    </filter>
-    <linearGradient
-       id="linearGradient5989-1"
-       inkscape:collect="always">
-      <stop
-         id="stop5991-3"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-      <stop
-         id="stop5993-0"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0.57755776" />
-    </linearGradient>
-    <filter
-       id="filter2927"
-       inkscape:label="Header shadow"
-       width="1.04"
-       height="2"
-       x="-0.02"
-       y="-0.60000002"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         id="feGaussianBlur2929"
-         stdDeviation="10"
-         result="blur"
-         in="SourceAlpha" />
-      <feColorMatrix
-         id="feColorMatrix2931"
-         result="bluralpha"
-         type="matrix"
-         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 " />
-      <feOffset
-         id="feOffset2933"
-         in="bluralpha"
-         dx="0"
-         dy="10"
-         result="offsetBlur" />
-      <feMerge
-         id="feMerge2935">
-        <feMergeNode
-           id="feMergeNode2937"
-           in="offsetBlur" />
-        <feMergeNode
-           inkscape:collect="always"
-           id="feMergeNode2947"
-           in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5989-1"
-       id="linearGradient2915"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.21328967,0,0,0.21328967,-502.8214,-79.881104)"
-       x1="256.99698"
-       y1="564.46503"
-       x2="256.99698"
-       y2="421.40396" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5123-4"
-       id="radialGradient2920"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.21328967,0,0,0.21328967,-530.0129,-30.5369)"
-       cx="384.4834"
-       cy="340.05579"
-       fx="384.4834"
-       fy="340.05579"
-       r="150" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2878-6"
-       id="linearGradient2923"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-4.2058128e-6,-63.986735,67.097386,-4.0108304e-6,-448.0065,73.9868)"
-       spreadMethod="pad"
-       x1="0"
-       y1="0"
-       x2="1"
-       y2="0" />
-    <pattern
-       patternUnits="userSpaceOnUse"
-       width="1020"
-       height="1020"
-       patternTransform="translate(-20,9.9999997e-6)"
-       id="pattern3674">
-      <image
-         sodipodi:absref="/home/cassus/munka/SzI/www/doc/production-files/./new_v3.5.jpg"
-         xlink:href="./new_v3.5.jpg"
-         style="fill:#92b051;fill-opacity:1"
-         width="1020"
-         height="1020"
-         id="image3619"
-         x="0"
-         y="0" />
-    </pattern>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4232"
-       id="linearGradient4238"
-       x1="489.78946"
-       y1="980.36218"
-       x2="489.78946"
-       y2="1036.2573"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,1.0746269,0,-58.415099)" />
-    <filter
-       id="filter3042"
-       inkscape:label="Colorize"
-       inkscape:menu="Color"
-       inkscape:menu-tooltip="Blend image or object with a flood color and set lightness and contrast"
-       x="0"
-       y="0"
-       width="1"
-       height="1"
-       color-interpolation-filters="sRGB">
-      <feColorMatrix
-         id="feColorMatrix3044"
-         values="239.37418513689701"
-         in="SourceGraphic"
-         type="hueRotate"
-         result="result2" />
-    </filter>
-    <filter
-       inkscape:collect="always"
        id="filter4146"
        color-interpolation-filters="sRGB">
       <feGaussianBlur
@@ -428,56 +167,6 @@
          inkscape:collect="always"
          stdDeviation="24.560807"
          id="feGaussianBlur4103" />
-    </filter>
-    <pattern
-       patternUnits="userSpaceOnUse"
-       width="983.78949"
-       height="920.26318"
-       patternTransform="translate(-0.52633572,-166.49998)"
-       id="pattern3036">
-      <image
-         sodipodi:absref="/home/cassus/munka/SzI/www/doc/production-files/./firefox.png"
-         xlink:href="./firefox.png"
-         width="983.78949"
-         height="920.26318"
-         id="image4142"
-         x="0"
-         y="0"
-         style="display:inline" />
-    </pattern>
-    <filter
-       id="filter3799"
-       inkscape:label="Header highlight"
-       inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         id="feGaussianBlur3801"
-         stdDeviation="6"
-         result="result8" />
-      <feComposite
-         id="feComposite3805"
-         in2="result8"
-         result="result6"
-         in="SourceGraphic"
-         operator="in" />
-      <feFlood
-         id="feFlood3807"
-         result="result10"
-         in="result6"
-         flood-opacity="1"
-         flood-color="rgb(0,0,0)" />
-      <feBlend
-         id="feBlend3809"
-         in2="result10"
-         mode="normal"
-         in="result6"
-         result="result12" />
-      <feComposite
-         id="feComposite3811"
-         in2="SourceGraphic"
-         result="result2"
-         operator="in" />
     </filter>
     <linearGradient
        inkscape:collect="always"
@@ -506,104 +195,6 @@
        y1="2.9834254"
        x2="795.58008"
        y2="74.064621" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4032-5"
-       id="linearGradient4792"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,6)"
-       x1="345.97351"
-       y1="468.57806"
-       x2="345.97351"
-       y2="548.57758" />
-    <linearGradient
-       id="linearGradient4032-5">
-      <stop
-         style="stop-color:#26750d;stop-opacity:1;"
-         offset="0"
-         id="stop4034-1" />
-      <stop
-         style="stop-color:#123906;stop-opacity:1;"
-         offset="1"
-         id="stop4036-8" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient4185-5">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.68648648;"
-         offset="0"
-         id="stop4187-0" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.11891892;"
-         offset="1"
-         id="stop4189-8" />
-    </linearGradient>
-    <linearGradient
-       y2="510.63159"
-       x2="360.94736"
-       y1="469.89474"
-       x1="360.94736"
-       gradientTransform="matrix(1.0074445,0,0,0.99226983,-3.6478034,7.272083)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient5016"
-       xlink:href="#linearGradient4185-5"
-       inkscape:collect="always" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4032-5"
-       id="linearGradient5079"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,6)"
-       x1="345.97351"
-       y1="468.57806"
-       x2="345.97351"
-       y2="548.57758" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4185-5"
-       id="linearGradient5081"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0074445,0,0,0.99226983,-3.6478034,7.272083)"
-       x1="360.94736"
-       y1="469.89474"
-       x2="360.94736"
-       y2="510.63159" />
-    <pattern
-       patternUnits="userSpaceOnUse"
-       width="335"
-       height="220"
-       patternTransform="translate(525,164.38037)"
-       id="pattern4596">
-      <image
-         sodipodi:absref="/home/cassus/munka/SzI/www/doc/production-files/31_social_network-green-small.jpg"
-         xlink:href="31_social_network-green-small.jpg"
-         y="0"
-         x="0"
-         id="image4592"
-         height="220"
-         width="335" />
-    </pattern>
-    <pattern
-       patternUnits="userSpaceOnUse"
-       width="983.78949"
-       height="920.26318"
-       patternTransform="translate(-0.52633572,-166.49998)"
-       id="pattern3078">
-      <rect
-         id="rect3039"
-         y="0"
-         x="0"
-         height="920.26318"
-         width="983.78949"
-         style="fill:url(#pattern3081);stroke:none" />
-    </pattern>
-    <inkscape:perspective
-       id="perspective3046"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
-       sodipodi:type="inkscape:persp3d" />
     <filter
        inkscape:collect="always"
        id="filter4796"
@@ -644,7 +235,7 @@
      showgrid="false"
      inkscape:window-width="1680"
      inkscape:window-height="1027"
-     inkscape:window-x="0"
+     inkscape:window-x="1680"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
@@ -821,11 +412,7 @@
            y="149.51445"
            style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif" /></flowRegion><flowPara
          style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara4053">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod magna aliquam erat volutpat.</flowPara><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara4057" /><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara4059">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex.</flowPara></flowRoot>    <text
+         id="flowPara4059">Megbízható informatikai szolgáltatások kisvállalkozásoknak.</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        x="120"
