@@ -30,6 +30,7 @@
  * @property Doctrine_Collection $BlogAuthorItems
  * @property Doctrine_Collection $BlogEditorItems
  * @property Doctrine_Collection $BlogItemEditors
+ * @property GoogleAccount $GoogleAccount
  * 
  * @method string                getFirstName()             Returns the current record's "first_name" value
  * @method string                getLastName()              Returns the current record's "last_name" value
@@ -56,6 +57,7 @@
  * @method Doctrine_Collection   getBlogAuthorItems()       Returns the current record's "BlogAuthorItems" collection
  * @method Doctrine_Collection   getBlogEditorItems()       Returns the current record's "BlogEditorItems" collection
  * @method Doctrine_Collection   getBlogItemEditors()       Returns the current record's "BlogItemEditors" collection
+ * @method GoogleAccount         getGoogleAccount()         Returns the current record's "GoogleAccount" value
  * @method sfGuardUser           setFirstName()             Sets the current record's "first_name" value
  * @method sfGuardUser           setLastName()              Sets the current record's "last_name" value
  * @method sfGuardUser           setEmailAddress()          Sets the current record's "email_address" value
@@ -81,6 +83,7 @@
  * @method sfGuardUser           setBlogAuthorItems()       Sets the current record's "BlogAuthorItems" collection
  * @method sfGuardUser           setBlogEditorItems()       Sets the current record's "BlogEditorItems" collection
  * @method sfGuardUser           setBlogItemEditors()       Sets the current record's "BlogItemEditors" collection
+ * @method sfGuardUser           setGoogleAccount()         Sets the current record's "GoogleAccount" value
  * 
  * @package    SzI www
  * @subpackage model
@@ -213,6 +216,10 @@ abstract class BasesfGuardUser extends sfDoctrineRecord
         $this->hasMany('aBlogEditor as BlogItemEditors', array(
              'local' => 'id',
              'foreign' => 'user_id'));
+
+        $this->hasOne('GoogleAccount', array(
+             'local' => 'id',
+             'foreign' => 'sf_guard_user_id'));
 
         $timestampable0 = new Doctrine_Template_Timestampable(array(
              ));

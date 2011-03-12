@@ -1,3 +1,6 @@
 [submodule "plugins/sfAutoconfigPlugin"]
 	path = plugins/sfAutoconfigPlugin
 	url = https://github.com/Cassus/sfAutoconfigPlugin.git
+[submodule "plugins/sfGoogleLoginPlugin"]
+	path = plugins/sfGoogleLoginPlugin
+	url = git://github.com/Cassus/sfGoogleLoginPlugin.git

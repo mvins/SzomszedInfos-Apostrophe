@@ -205,6 +205,8 @@ all:
     use_bundled_layout: false   
 
     # do_not_edit: true   # Quickly and easily display the 'Do Not Edit' message on staging sites after launch.
+
+    actions_logout: sfGoogleLogin_logout
       
   aAdmin:
     web_dir: /apostrophePlugin

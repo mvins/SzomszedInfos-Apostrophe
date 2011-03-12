@@ -16,6 +16,7 @@ default:
     # Required for blog slots
     - /apostropheBlogPlugin/js/aBlog.js
     - site.js: { position: last }
+    - /sfGoogleLoginPlugin/js/sfGoogleLogin.js
 
   has_layout:     true
   layout:         layout

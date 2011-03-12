@@ -40,6 +40,7 @@ class ProjectConfiguration extends sfProjectConfiguration
         'apostrophePlugin',
         'apostropheBlogPlugin',
         'sfAutoconfigPlugin',
+        'sfGoogleLoginPlugin',
     ));
   }
 
