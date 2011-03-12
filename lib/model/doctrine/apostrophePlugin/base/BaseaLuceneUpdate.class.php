@@ -16,7 +16,7 @@
  * @method aLuceneUpdate setCulture() Sets the current record's "culture" value
  * @method aLuceneUpdate setPage()    Sets the current record's "Page" value
  * 
- * @package    asandbox
+ * @package    SzI www
  * @subpackage model
  * @author     Your name here
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $

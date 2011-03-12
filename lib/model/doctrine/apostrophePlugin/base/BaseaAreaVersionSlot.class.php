@@ -25,7 +25,7 @@
  * @method aAreaVersionSlot setAreaVersion()     Sets the current record's "AreaVersion" value
  * @method aAreaVersionSlot setSlot()            Sets the current record's "Slot" value
  * 
- * @package    asandbox
+ * @package    SzI www
  * @subpackage model
  * @author     Your name here
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $

@@ -31,7 +31,7 @@
  * @method aAreaVersion        setAuthor()           Sets the current record's "Author" value
  * @method aAreaVersion        setAreaVersionSlots() Sets the current record's "AreaVersionSlots" collection
  * 
- * @package    asandbox
+ * @package    SzI www
  * @subpackage model
  * @author     Your name here
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $

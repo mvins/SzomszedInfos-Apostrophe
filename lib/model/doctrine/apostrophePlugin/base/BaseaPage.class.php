@@ -76,7 +76,7 @@
  * @method aPage               setARedirect()       Sets the current record's "aRedirect" collection
  * @method aPage               setABlogItem()       Sets the current record's "aBlogItem" collection
  * 
- * @package    asandbox
+ * @package    SzI www
  * @subpackage model
  * @author     Your name here
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
