@@ -8,7 +8,7 @@
   <?php // You can easily turn off the 'Log In' link via app.yml ?>
   <?php if (sfConfig::get('app_a_login_link', true)): ?>
         <li class="a-login-login last">
-    <?php include_component('sfGoogleLogin', 'link'); ?>
+    <?php echo link_to('Login', GoogleOpenID::getLoginUrl(), array('class' => 'googleLogin a-btn')) ?>
       </li>
   <?php endif ?>
   <?php endif ?>

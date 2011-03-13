@@ -202,11 +202,9 @@ all:
       # jquery: /js/myjquery.js
            
     # We're using it as the sitewide layout instead (see view.yml)
-    use_bundled_layout: false   
+    use_bundled_layout: false
 
     # do_not_edit: true   # Quickly and easily display the 'Do Not Edit' message on staging sites after launch.
-
-    actions_logout: sfGoogleLogin_logout
       
   aAdmin:
     web_dir: /apostrophePlugin

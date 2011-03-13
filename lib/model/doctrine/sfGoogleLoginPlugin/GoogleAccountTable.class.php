@@ -7,13 +7,25 @@
  */
 class GoogleAccountTable extends PluginGoogleAccountTable
 {
-    /**
-     * Returns an instance of this class.
-     *
-     * @return object GoogleAccountTable
-     */
-    public static function getInstance()
+
+  /**
+   * Returns an instance of this class.
+   *
+   * @return object GoogleAccountTable
+   */
+  public static function getInstance()
+  {
+    return Doctrine_Core::getTable('GoogleAccount');
+  }
+
+  public function findOrCreateOneByUserToken($googleUserToken)
+  {
+    if (!$googleAccount = $this->findOneByUserToken($googleUserToken))
     {
-        return Doctrine_Core::getTable('GoogleAccount');
+      $googleAccount = new GoogleAccount();
+      $googleAccount->setUserToken($googleUserToken);
     }
+    return $googleAccount;
+  }
+
 }
