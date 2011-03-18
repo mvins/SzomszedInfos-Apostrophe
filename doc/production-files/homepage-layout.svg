@@ -227,15 +227,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="460.61337"
-     inkscape:cy="376.70647"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="444.72341"
+     inkscape:cy="425.14613"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1680"
      inkscape:window-height="1027"
-     inkscape:window-x="1680"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
@@ -277,7 +277,7 @@
        id="guide4527" />
     <sodipodi:guide
        orientation="0,1"
-       position="119.68966,555.61963"
+       position="47.376154,504.16714"
        id="guide2982" />
     <sodipodi:guide
        orientation="1,0"
@@ -305,7 +305,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-332.36217)"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        d="m 451.65839,430.8263 c 0,73.8075 -140.25625,133.63875 -313.26875,133.63875 -173.012508,0 -313.2675,-59.83125 -313.2675,-133.63875 0,-73.80625 140.254992,-133.6375 313.2675,-133.6375 173.0125,0 313.26875,59.83125 313.26875,133.6375"
        style="opacity:0.36633684;fill:url(#linearGradient5987);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;enable-background:new"
@@ -403,16 +404,26 @@
        xml:space="preserve"
        id="flowRoot3057"
        style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-       transform="matrix(0.93656424,0,0,0.93656424,157.15451,151.62434)"><flowRegion
+       transform="matrix(0.93656424,0,0,0.93656424,1.310316,81.62434)"><flowRegion
          id="flowRegion3059"><rect
            id="rect3061"
-           width="552.19989"
-           height="160.32121"
+           width="419.80103"
+           height="207.30147"
            x="89.957031"
            y="149.51445"
            style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif" /></flowRegion><flowPara
          style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara4059">Megbízható informatikai szolgáltatások kisvállalkozásoknak.</flowPara></flowRoot>    <text
+         id="flowPara3854">Segítség a mindennapos informatikai kihívásokhoz kisvállalkozásoknak.</flowPara><flowPara
+         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3860" /><flowPara
+         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3868">Azonnali hibaelhárítás a helyszínen,</flowPara><flowPara
+         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3870">megbízható szakértői szolgáltatások,</flowPara><flowPara
+         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3874">rendszeres karbantartás elérhető áron.</flowPara><flowPara
+         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3862" /></flowRoot>    <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        x="120"
@@ -444,7 +455,7 @@
          x="229.90405"
          y="110.84278">Cégeknek</tspan></text>
     <path
-       style="fill:none;stroke:#1f6601;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.55913977999999998;stroke-dasharray:none"
+       style="fill:none;stroke:#1f6601;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.55913978;stroke-dasharray:none"
        d="M 0.49974516,645 980.00025,645"
        id="path4865"
        inkscape:connector-curvature="0" />
@@ -469,16 +480,57 @@
          id="tspan4940"
          sodipodi:role="line">Infósoknak</tspan></text>
     <path
-       style="color:#000000;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:1"
-       d="m 453.78014,131.74914 3.08398,40.27232 11.91952,-16.76114 c 97.26323,92.36901 443.80384,106.52642 280.88745,245.98118 l 0,38.62087 C 980,237.31608 576.91254,239.49506 477.20289,147.68656 l 16.83129,-12.62328 z"
-       id="rect5532"
+       style="fill:none;stroke:#1f6601;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 227.90405,110.84278 79.377434,215.83286 79.377434,400"
+       id="path3839"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc" />
+       sodipodi:nodetypes="ccc" />
     <path
-       style="color:#000000;fill:#0e5500;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:1"
-       d="m 236.15106,125.99743 -39.24065,3.75199 19.14808,8.33691 C 172.55404,169.9102 43.69544,233.11743 234.75,357.75 l 0,-59 C 106.43213,231.26393 184.67789,180.40701 224.10282,146.11441 l 8.3756,19.13118 z"
-       id="rect5585"
+       sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc" />
-  </g>
+       id="path3852"
+       d="m 353.1053,115.83286 0,100 136.8947,0 0,190.40978"
+       style="fill:none;stroke:#1f6601;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <flowRoot
+       transform="matrix(0.93656424,0,0,0.93656424,417.31032,81.62434)"
+       style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       id="flowRoot3876"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3878"><rect
+           style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+           y="149.51445"
+           x="89.957031"
+           height="207.30147"
+           width="419.80103"
+           id="rect3880" /></flowRegion><flowPara
+         id="flowPara3892"
+         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif">Rugalmas munkalehetőség kedvező fizetéssel tehetséges infósoknak.</flowPara><flowPara
+         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3918" /><flowPara
+         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3916">Egyetemista életformával összeegyeztethető munka,</flowPara><flowPara
+         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3926">szakmai tapasztalatok a karriered építéséhez.</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Yanone Kaffeesatz;-inkscape-font-specification:Yanone Kaffeesatz"
+       x="189"
+       y="482"
+       id="text3928"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3930" /></text>
+    <flowRoot
+       transform="matrix(0.93656424,0,0,0.93656424,235.31032,360.62434)"
+       style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       id="flowRoot3932"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3934"><rect
+           style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+           y="149.51445"
+           x="89.957031"
+           height="207.30147"
+           width="419.80103"
+           id="rect3936" /></flowRegion><flowPara
+         id="flowPara3948"
+         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif">... mert együtt könnyebb.</flowPara></flowRoot>  </g>
 </svg>
