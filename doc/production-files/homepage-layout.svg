@@ -16,77 +16,12 @@
    version="1.1"
    inkscape:version="0.48.0 r9654"
    sodipodi:docname="homepage-layout.svg"
-   inkscape:export-filename="/home/cassus/munka/SzI/honlap/nyitolap.png"
+   inkscape:export-filename="/home/cassus/Inbox/homepage.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline;enable-background:new">
   <defs
      id="defs4">
-    <linearGradient
-       id="linearGradient3855">
-      <stop
-         style="stop-color:#38a037;stop-opacity:1;"
-         offset="0"
-         id="stop3857" />
-      <stop
-         style="stop-color:#1f561e;stop-opacity:1;"
-         offset="1"
-         id="stop3859" />
-    </linearGradient>
-    <inkscape:path-effect
-       effect="skeletal"
-       id="path-effect3974"
-       is_visible="true"
-       pattern="M 26,0 26,10 36,5 z"
-       copytype="single_stretched"
-       prop_scale="1"
-       scale_y_rel="false"
-       spacing="0"
-       normal_offset="0"
-       tang_offset="0"
-       prop_units="false"
-       vertical_pattern="false"
-       fuse_tolerance="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect3972"
-       is_visible="true" />
-    <inkscape:path-effect
-       effect="skeletal"
-       id="path-effect3962"
-       is_visible="true"
-       pattern="m 648.50386,96.638736 10,5.000004 0,-10.000004 z"
-       copytype="single_stretched"
-       prop_scale="1"
-       scale_y_rel="false"
-       spacing="0"
-       normal_offset="0"
-       tang_offset="0"
-       prop_units="false"
-       vertical_pattern="false"
-       fuse_tolerance="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect3960"
-       is_visible="true" />
-    <inkscape:path-effect
-       effect="skeletal"
-       id="path-effect3950"
-       is_visible="true"
-       pattern="M 26,5 36,10 36,0 z"
-       copytype="single_stretched"
-       prop_scale="1"
-       scale_y_rel="false"
-       spacing="0"
-       normal_offset="0"
-       tang_offset="0"
-       prop_units="false"
-       vertical_pattern="false"
-       fuse_tolerance="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect3948"
-       is_visible="true" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5989"
@@ -148,15 +83,6 @@
        y2="0" />
     <filter
        inkscape:collect="always"
-       id="filter4146"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.59977956"
-         id="feGaussianBlur4148" />
-    </filter>
-    <filter
-       inkscape:collect="always"
        id="filter4101"
        x="-0.076250874"
        width="1.1525017"
@@ -167,45 +93,6 @@
          inkscape:collect="always"
          stdDeviation="24.560807"
          id="feGaussianBlur4103" />
-    </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3855"
-       id="linearGradient3873"
-       gradientUnits="userSpaceOnUse"
-       x1="785.63538"
-       y1="3.9779005"
-       x2="844.30939"
-       y2="72.075668" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3855"
-       id="linearGradient3875"
-       gradientUnits="userSpaceOnUse"
-       x1="853.25964"
-       y1="8.9502764"
-       x2="851.27069"
-       y2="62.130913" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3855"
-       id="linearGradient3877"
-       gradientUnits="userSpaceOnUse"
-       x1="786.62982"
-       y1="2.9834254"
-       x2="795.58008"
-       y2="74.064621" />
-    <filter
-       inkscape:collect="always"
-       id="filter4796"
-       x="-0.0062620717"
-       width="1.0125241"
-       y="-0.14336701"
-       height="1.286734">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="2.1395411"
-         id="feGaussianBlur4798" />
     </filter>
     <filter
        inkscape:collect="always"
@@ -219,6 +106,45 @@
          stdDeviation="7.1379584"
          id="feGaussianBlur4840" />
     </filter>
+    <filter
+       id="filter4191"
+       inkscape:label="small glow"
+       width="1.2"
+       height="1.2"
+       x="-0.10000000000000001"
+       y="-0.10000000000000001">
+      <feGaussianBlur
+         id="feGaussianBlur4193"
+         in="SourceAlpha"
+         stdDeviation="3"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix4195"
+         result="bluralpha"
+         type="matrix"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 0.9 0 " />
+      <feMerge
+         id="feMerge4199">
+        <feMergeNode
+           id="feMergeNode4201"
+           in="bluralpha" />
+        <feMergeNode
+           id="feMergeNode4203"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4186"
+       x="-0.0062620717"
+       width="1.0125241"
+       y="-0.14336701"
+       height="1.286734">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.1395411"
+         id="feGaussianBlur4188" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -227,15 +153,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="444.72341"
-     inkscape:cy="425.14613"
+     inkscape:zoom="1"
+     inkscape:cx="492.065"
+     inkscape:cy="364.46074"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1680"
      inkscape:window-height="1027"
-     inkscape:window-x="0"
+     inkscape:window-x="1680"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
@@ -287,6 +213,42 @@
        orientation="0,1"
        position="0,610.10524"
        id="guide3909" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="587,480.42042"
+       id="guide4123" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="114.37743,415.92042"
+       id="guide4127" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="414.04639,592.81336"
+       id="guide3203" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="291,296.5"
+       id="guide3878" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="510.79626,98.99495"
+       id="guide4020" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="875.20497,660.5232"
+       id="guide4076" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="875.20497,680.5232"
+       id="guide4078" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="875.20497,700.5232"
+       id="guide4080" />
+    <sodipodi:guide
+       orientation="0.70710678,0.70710678"
+       position="498.75,492"
+       id="guide4190" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -296,7 +258,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -323,22 +285,6 @@
        width="980"
        id="rect5335"
        style="color:#000000;fill:#151b15;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    <rect
-       rx="4"
-       y="417.44028"
-       x="80"
-       height="35.81646"
-       width="820"
-       id="rect4782"
-       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4796);enable-background:accumulate" />
-    <rect
-       style="color:#000000;fill:#1f6601;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect2915"
-       width="820"
-       height="35.81646"
-       x="80"
-       y="417.44028"
-       rx="4" />
     <path
        sodipodi:type="arc"
        style="opacity:0.13500001;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4838);enable-background:accumulate"
@@ -347,7 +293,7 @@
        sodipodi:cy="49"
        sodipodi:rx="94.25"
        sodipodi:ry="14"
-       d="m 249.25,49 c 0,7.731986 -42.19716,14 -94.25,14 -52.05284,0 -94.25,-6.268014 -94.25,-14 0,-7.731986 42.19716,-14 94.25,-14 52.05284,0 94.25,6.268014 94.25,14 z"
+       d="m 249.25,49 a 94.25,14 0 1 1 -188.5,0 94.25,14 0 1 1 188.5,0 z"
        transform="matrix(0.94369528,0,0,1.0114997,17.658325,330.75279)" />
     <path
        sodipodi:type="arc"
@@ -357,75 +303,163 @@
        sodipodi:cy="37.894764"
        sodipodi:rx="386.52631"
        sodipodi:ry="32.210526"
-       d="m 1366.1052,37.894764 c 0,17.789382 -173.0537,32.210525 -386.52628,32.210525 -213.47259,0 -386.52631,-14.421143 -386.52631,-32.210525 0,-17.789382 173.05372,-32.2105256 386.52631,-32.2105256 213.47258,0 386.52628,14.4211436 386.52628,32.2105256 z"
-       transform="matrix(1,0,0,0.69272362,0,344.00634)" />
-    <path
-       style="color:#000000;fill:url(#linearGradient3877);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4146);enable-background:accumulate"
-       d="m 585.89471,45.473713 c 41.42455,-18.435371 87.72531,-25.432992 132.46095,-20.170744 16.98796,1.994661 33.74765,5.725165 50.46974,9.715289 0,10e-7 0,10e-7 1e-5,2e-6 16.74381,3.999863 33.49844,8.277007 50.59078,11.384996 10e-6,2e-6 10e-6,3e-6 2e-5,4e-6 58.99386,10.715356 120.74706,6.844238 178.25273,-11.338254 l -3.12744,-9.498374 c -55.49063,19.022746 -115.86976,24.344384 -174.16831,15.18806 0,-10e-7 -10e-6,-10e-7 -10e-6,-2e-6 -16.89761,-2.650588 -33.67581,-6.511694 -50.55693,-10.117166 -16.8575,-3.604954 -33.86917,-6.957658 -51.11933,-8.572013 -45.44136,-4.243244 -91.8307,3.986793 -132.80221,23.408202 z"
-       id="path3946"
-       inkscape:path-effect="#path-effect3948;#path-effect3950"
-       inkscape:original-d="m 585.89471,45.473713 c 4.73685,0 95.68421,-19.894736 132.63158,-21.789473 36.94736,-1.894737 46.42105,13.263157 101.36841,19.894736 54.94737,6.631579 176.21052,-13.263157 176.21052,-13.263157"
-       inkscape:connector-curvature="0"
-       transform="translate(0,332.36217)" />
-    <path
-       style="color:#000000;fill:url(#linearGradient3873);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4146);enable-background:accumulate"
-       d="m 577.3684,18.000028 c 16.93789,14.549054 36.73307,25.800847 57.90575,33.188505 21.17237,7.388573 43.76071,10.926953 66.27793,10.067735 0,0 10e-6,0 10e-6,0 27.53485,-1.067559 54.41345,-8.403744 80.44449,-16.951886 10e-6,-2e-6 2e-5,-5e-6 2e-5,-7e-6 26.2665,-8.602382 52.03981,-18.456514 78.54577,-24.79769 40.69952,-9.7566487 83.30415,-11.1503483 124.3601,-4.147084 l 1.5634,-9.8770363 C 943.90556,-0.74950699 900.21133,1.7499748 858.82599,12.7039 c -26.9298,7.141031 -52.56551,17.629248 -78.46541,26.798076 -25.67614,9.066628 -51.94285,16.955901 -78.96535,18.61023 -10e-6,0 -10e-6,0 -2e-5,10e-7 C 679.31376,59.47803 656.93314,56.525669 635.7753,49.696461 614.61776,42.866335 594.64345,32.147099 577.3684,18.000028 z"
-       id="path3958"
-       inkscape:path-effect="#path-effect3960;#path-effect3962"
-       inkscape:original-d="m 577.3684,18.00003 c 0,0 18,41.684208 124.10526,41.684208 106.10525,0 100.42104,-41.684208 158.21052,-43.578945 57.78947,-1.894737 125.99999,-5.68421 125.99999,-5.68421"
-       inkscape:connector-curvature="0"
-       transform="translate(0,332.36217)" />
-    <path
-       style="color:#000000;fill:url(#linearGradient3875);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4146);enable-background:accumulate"
-       d="m 985.35718,61.656906 6.3382,-7.73481 c -25.13497,-20.06832 -57.14667,-30.943397 -89.02002,-30.43403 -19.57006,0.349592 -38.5509,4.749311 -56.98732,9.768416 -18.55792,5.025805 -36.80866,10.689577 -55.50346,13.705536 0,10e-7 -10e-6,2e-6 -2e-5,3e-6 -32.69132,5.303592 -66.61458,2.39713 -98.85126,-6.269911 -25.66075,-6.902871 -50.39451,-17.437514 -73.22806,-31.2183958 22.47081,14.3647608 47.00655,25.5854888 72.66666,33.2026538 32.23719,9.574335 66.50945,13.426168 100.09609,8.887988 0,-10e-7 0,-10e-7 1e-5,-2e-6 19.19418,-2.610268 37.81215,-7.844176 56.34921,-12.367748 18.42474,-4.470074 36.99354,-8.31244 55.48619,-8.10314 30.05882,0.281097 59.88507,11.377681 82.65378,30.56344 z"
-       id="path3970"
-       inkscape:path-effect="#path-effect3972;#path-effect3974"
-       inkscape:original-d="M 988.52628,57.789501 C 983.47376,56.666718 947.48595,29.079831 902.68938,27.290766 857.89282,25.501702 804.2875,49.51046 790.52629,49.263186 757.90728,48.677057 723.30605,49.78013 691.0526,41.684239 665.2716,35.212986 618.10524,9.4737142 618.10524,9.4737142"
-       sodipodi:nodetypes="cssaa"
-       inkscape:connector-curvature="0"
-       transform="translate(0,332.36217)" />
+       d="m 1366.1052,37.894764 a 386.52631,32.210526 0 1 1 -773.05259,0 386.52631,32.210526 0 1 1 773.05259,0 z"
+       transform="matrix(1,0,0,0.69272362,-5,340.96534)" />
+    <g
+       style="filter:url(#filter4191)"
+       id="g4130">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4086"
+         style="color:#000000;fill:none;stroke:#75ff10;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 1135.4768,481.01924 0,128.03416 -2,2 m -8,8 -10,10 0,117.62424"
+         transform="matrix(0,1,-1,0,1499.0534,-763.63783)"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:none;stroke:#75ff10;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path4019-91"
+         sodipodi:cx="491.04144"
+         sodipodi:cy="418.9935"
+         sodipodi:rx="4.9055533"
+         sodipodi:ry="4.9055533"
+         d="m 495.947,418.9935 a 4.9055533,4.9055533 0 1 1 -9.81111,0 4.9055533,4.9055533 0 1 1 9.81111,0 z"
+         transform="translate(255.95856,-67.154529)" />
+    </g>
+    <g
+       style="filter:url(#filter4191)"
+       id="g4122">
+      <path
+         sodipodi:nodetypes="cccc"
+         transform="matrix(0,1,-1,0,1487.0534,-783.63783)"
+         d="m 1135.4768,481.01924 0,108.03416 40,39.99999 0,77.62425"
+         style="color:#000000;fill:none;stroke:#39bc02;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path4085-0"
+         inkscape:connector-curvature="0" />
+      <path
+         transform="translate(283.95856,-27.154529)"
+         d="m 495.947,418.9935 a 4.9055533,4.9055533 0 1 1 -9.81111,0 4.9055533,4.9055533 0 1 1 9.81111,0 z"
+         sodipodi:ry="4.9055533"
+         sodipodi:rx="4.9055533"
+         sodipodi:cy="418.9935"
+         sodipodi:cx="491.04144"
+         id="path4110"
+         style="color:#000000;fill:none;stroke:#39bc02;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       style="filter:url(#filter4191)"
+       id="g4126">
+      <path
+         sodipodi:nodetypes="cccccc"
+         transform="matrix(0,1,-1,0,1479.0534,-743.63783)"
+         d="m 1135.4768,481.01924 0,128.03416 -2,2 m -8,8 -10,10 0,137.62424"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path4088"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path4112"
+         sodipodi:cx="491.04144"
+         sodipodi:cy="418.9935"
+         sodipodi:rx="4.9055533"
+         sodipodi:ry="4.9055533"
+         d="m 495.947,418.9935 a 4.9055533,4.9055533 0 1 1 -9.81111,0 4.9055533,4.9055533 0 1 1 9.81111,0 z"
+         transform="translate(215.95856,-47.154529)" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="FG"
-     style="display:inline">
+     id="layer2"
+     inkscape:label="Áramkör">
+    <g
+       id="g4129"
+       style="display:inline;enable-background:new;filter:url(#filter4191)">
+      <path
+         transform="translate(-41.041443,-239.7435)"
+         d="m 495.947,418.9935 a 4.9055533,4.9055533 0 1 1 -9.81111,0 4.9055533,4.9055533 0 1 1 9.81111,0 z"
+         sodipodi:ry="4.9055533"
+         sodipodi:rx="4.9055533"
+         sodipodi:cy="418.9935"
+         sodipodi:cx="491.04144"
+         id="path4019-9"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         id="path4085"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 460.6737,189.83286 49.3263,49.3263 0,177.6584 m -60,-286.63092 0,42.07748"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         transform="translate(18.958557,4.5065002)"
+         d="m 495.947,418.9935 a 4.9055533,4.9055533 0 1 1 -9.81111,0 4.9055533,4.9055533 0 1 1 9.81111,0 z"
+         sodipodi:ry="4.9055533"
+         sodipodi:rx="4.9055533"
+         sodipodi:cy="418.9935"
+         sodipodi:cx="491.04144"
+         id="path4019"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3919"
+       style="display:inline;enable-background:new;filter:url(#filter4191)">
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4104"
+         d="M 234.43009,137.81991 156,216 122.37743,215.83286 m -18,10 -20.999996,21 0,168.16714"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path4019-4"
+         sodipodi:cx="491.04144"
+         sodipodi:cy="418.9935"
+         sodipodi:rx="4.9055533"
+         sodipodi:ry="4.9055533"
+         d="m 495.947,418.9935 a 4.9055533,4.9055533 0 1 1 -9.81111,0 4.9055533,4.9055533 0 1 1 9.81111,0 z"
+         transform="translate(-407.66401,4.5065005)" />
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path4019-9-1"
+         sodipodi:cx="491.04144"
+         sodipodi:cy="418.9935"
+         sodipodi:rx="4.9055533"
+         sodipodi:ry="4.9055533"
+         d="m 495.947,418.9935 a 4.9055533,4.9055533 0 1 1 -9.81111,0 4.9055533,4.9055533 0 1 1 9.81111,0 z"
+         transform="translate(-252.73635,-285.15131)" />
+      <path
+         transform="translate(-376.66401,-203.16064)"
+         d="m 495.947,418.9935 a 4.9055533,4.9055533 0 1 1 -9.81111,0 4.9055533,4.9055533 0 1 1 9.81111,0 z"
+         sodipodi:ry="4.9055533"
+         sodipodi:rx="4.9055533"
+         sodipodi:cy="418.9935"
+         sodipodi:cx="491.04144"
+         id="path3088"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="menü">
+    <rect
+       transform="translate(0,-332.36217)"
+       style="color:#000000;fill:#7eaf68;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter4186)"
+       id="rect2915"
+       width="820"
+       height="35.81646"
+       x="80"
+       y="417.44028"
+       rx="4" />
     <text
        xml:space="preserve"
-       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#c7c7c7;fill-opacity:1;stroke:none;font-family:Yanone Kaffeesatz;-inkscape-font-specification:Yanone Kaffeesatz"
-       x="79.099998"
-       y="58.718109"
-       id="text2957"><tspan
-         sodipodi:role="line"
-         id="tspan2959"
-         x="79.099998"
-         y="58.718109">Szomszéd Infós</tspan></text>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3057"
-       style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-       transform="matrix(0.93656424,0,0,0.93656424,1.310316,81.62434)"><flowRegion
-         id="flowRegion3059"><rect
-           id="rect3061"
-           width="419.80103"
-           height="207.30147"
-           x="89.957031"
-           y="149.51445"
-           style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif" /></flowRegion><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara3854">Segítség a mindennapos informatikai kihívásokhoz kisvállalkozásoknak.</flowPara><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara3860" /><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara3868">Azonnali hibaelhárítás a helyszínen,</flowPara><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara3870">megbízható szakértői szolgáltatások,</flowPara><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara3874">rendszeres karbantartás elérhető áron.</flowPara><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara3862" /></flowRoot>    <text
-       xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Sans;-inkscape-font-specification:Sans"
        x="120"
        y="110.84278"
        id="text3235"><tspan
@@ -454,21 +488,6 @@
          id="tspan3247"
          x="229.90405"
          y="110.84278">Cégeknek</tspan></text>
-    <path
-       style="fill:none;stroke:#1f6601;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.55913978;stroke-dasharray:none"
-       d="M 0.49974516,645 980.00025,645"
-       id="path4865"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
-       x="489.66309"
-       y="685"
-       id="text4867"><tspan
-         sodipodi:role="line"
-         x="489.66309"
-         y="685"
-         id="tspan4890">Általános Szerződési Feltételek  | info@szomszedinfos.hu | +36 30 73 57 507 |  CC Szomszéd Infós Kft.</tspan></text>
     <text
        id="text4938"
        y="110.84278"
@@ -479,37 +498,94 @@
          x="356.54639"
          id="tspan4940"
          sodipodi:role="line">Infósoknak</tspan></text>
-    <path
-       style="fill:none;stroke:#1f6601;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 227.90405,110.84278 79.377434,215.83286 79.377434,400"
-       id="path3839"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
-    <path
-       sodipodi:nodetypes="cccc"
-       inkscape:connector-curvature="0"
-       id="path3852"
-       d="m 353.1053,115.83286 0,100 136.8947,0 0,190.40978"
-       style="fill:none;stroke:#1f6601;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="FG"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#c7c7c7;fill-opacity:1;stroke:none;font-family:Yanone Kaffeesatz;-inkscape-font-specification:Yanone Kaffeesatz"
+       x="79.099998"
+       y="58.718109"
+       id="text2957"><tspan
+         sodipodi:role="line"
+         id="tspan2959"
+         x="79.099998"
+         y="58.718109">Szomszéd Infós</tspan></text>
     <flowRoot
-       transform="matrix(0.93656424,0,0,0.93656424,417.31032,81.62434)"
-       style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       xml:space="preserve"
+       id="flowRoot3057"
+       style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#cfcfcf;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       transform="matrix(0.93656424,0,0,0.93656424,10.233104,113.62434)"><flowRegion
+         id="flowRegion3059"><rect
+           id="rect3061"
+           width="373.34171"
+           height="219.11098"
+           x="89.957031"
+           y="149.51445"
+           style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#cfcfcf;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif" /></flowRegion><flowPara
+         style="font-size:19.21918297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#cfcfcf;fill-opacity:1;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3854">Segítség a mindennapos informatikai kihívásokhoz kisvállalkozásoknak.</flowPara><flowPara
+         style="font-size:19.21918297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#cfcfcf;fill-opacity:1;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3860" /><flowPara
+         style="font-size:19.21918297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#cfcfcf;fill-opacity:1;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3868">Azonnali hibaelhárítás a helyszínen,</flowPara><flowPara
+         style="font-size:19.21918297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#cfcfcf;fill-opacity:1;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3870">megbízható szakértői szolgáltatások,</flowPara><flowPara
+         style="font-size:19.21918297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#cfcfcf;fill-opacity:1;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3874">rendszeres karbantartás elérhető áron.</flowPara><flowPara
+         style="font-size:19.21918297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#cfcfcf;fill-opacity:1;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3862" /></flowRoot>    <g
+       id="g4025"
+       style="filter:url(#filter4191)">
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path4019-1"
+         sodipodi:cx="491.04144"
+         sodipodi:cy="418.9935"
+         sodipodi:rx="4.9055533"
+         sodipodi:ry="4.9055533"
+         d="m 495.947,418.9935 a 4.9055533,4.9055533 0 1 1 -9.81111,0 4.9055533,4.9055533 0 1 1 9.81111,0 z"
+         transform="translate(-101.04144,202.01155)" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path4865"
+         d="M 0.49974516,645 366.25,645 l 20,-20 m 16,-4 186.94598,0 24,24.00505 L 980.00025,645"
+         style="color:#000000;fill:none;stroke:#b9ffab;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4191-5);enable-background:accumulate" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#cfcfcf;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans;stroke-width:0.93656426999999998"
+       x="489.66309"
+       y="685"
+       id="text4867"><tspan
+         sodipodi:role="line"
+         x="489.66309"
+         y="685"
+         id="tspan4890">Általános Szerződési Feltételek  | info@szomszedinfos.hu | +36 30 73 57 507 |  CC Szomszéd Infós Kft.</tspan></text>
+    <flowRoot
+       transform="matrix(0.93656424,0,0,0.93656424,440.73849,113.62434)"
+       style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#cfcfcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
        id="flowRoot3876"
        xml:space="preserve"><flowRegion
          id="flowRegion3878"><rect
-           style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+           style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#cfcfcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
            y="149.51445"
            x="89.957031"
-           height="207.30147"
-           width="419.80103"
+           height="247.34145"
+           width="400.41138"
            id="rect3880" /></flowRegion><flowPara
          id="flowPara3892"
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif">Rugalmas munkalehetőség kedvező fizetéssel tehetséges infósoknak.</flowPara><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         style="font-size:19.21918297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#cfcfcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif">Rugalmas munkalehetőség kedvező fizetéssel tehetséges infósoknak.</flowPara><flowPara
+         style="font-size:19.21918297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#cfcfcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
          id="flowPara3918" /><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         style="font-size:19.21918297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#cfcfcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
          id="flowPara3916">Egyetemista életformával összeegyeztethető munka,</flowPara><flowPara
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         style="font-size:19.21918297px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;color:#000000;fill:#cfcfcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
          id="flowPara3926">szakmai tapasztalatok a karriered építéséhez.</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Yanone Kaffeesatz;-inkscape-font-specification:Yanone Kaffeesatz"
@@ -519,18 +595,15 @@
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3930" /></text>
-    <flowRoot
-       transform="matrix(0.93656424,0,0,0.93656424,235.31032,360.62434)"
-       style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-       id="flowRoot3932"
-       xml:space="preserve"><flowRegion
-         id="flowRegion3934"><rect
-           style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:0.81208041;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-           y="149.51445"
-           x="89.957031"
-           height="207.30147"
-           width="419.80103"
-           id="rect3936" /></flowRegion><flowPara
-         id="flowPara3948"
-         style="font-size:21.35464859px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:0.81208041;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif">... mert együtt könnyebb.</flowPara></flowRoot>  </g>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;color:#000000;fill:#cfcfcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       x="490"
+       y="521.79211"
+       id="text3960"><tspan
+         sodipodi:role="line"
+         id="tspan3962"
+         x="490"
+         y="521.79211">... mert együtt könnyebb.</tspan></text>
+  </g>
 </svg>
