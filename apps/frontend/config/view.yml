@@ -10,12 +10,11 @@ default:
     #robots:       index, follow
 
   stylesheets:    
-    - main.css: { position: last }
+    - main.less: { position: last }
   
   javascripts:
     # Required for blog slots
     - /apostropheBlogPlugin/js/aBlog.js
-    - site.js: { position: last }
     - /sfGoogleLoginPlugin/js/sfGoogleLogin.js
 
   has_layout:     true
