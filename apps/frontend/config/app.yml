@@ -9,9 +9,6 @@ all:
 
     pager_nb_links: 5
     
-    # We use this to bring in our own API keys and such, you need to go get your own
-    <?php if (file_exists(dirname(__FILE__) . '/punk-demo-app.yml')) require dirname(__FILE__) . '/punk-demo-app.yml' ?>
-
     # includes apostrophe css into the project
     use_bundled_stylesheet: true
     
@@ -25,7 +22,7 @@ all:
       - users   
       - reorganize
     
-    persistent_global_toolbar: true # false if you want to hide the global toolbar to logged-out visitors
+    persistent_global_toolbar: false # false if you want to hide the global toolbar to logged-out visitors
     
     # If true, there will be a language switcher next to the login/logout button
     # i18n_switch: true
@@ -69,6 +66,7 @@ all:
     addslot_button_style: big
     history_button_style: no-label big
     delete_button_style: no-label
+    credit: false
     
     slot_types:
       aBlog: Blog Posts
