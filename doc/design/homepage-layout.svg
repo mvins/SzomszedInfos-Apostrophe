@@ -3015,6 +3015,12 @@
        id="path11237"
        d="m 0,0 980,0 0,720 -980,0 z"
        style="color:#000000;fill:#151b15;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g11287"
+       xlink:href="#g11287"
+       id="use10753" />
     <g
        id="g11287"
        inkscape:tile-cx="339.43582"
@@ -3030,12 +3036,6 @@
          transform="matrix(0,1,-1,0,358.05377,-263.06735)"
          id="path11255" />
     </g>
-    <use
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#g11287"
-       xlink:href="#g11287"
-       id="use10753" />
     <use
        x="0"
        y="0"
