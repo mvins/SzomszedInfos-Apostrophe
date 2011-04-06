@@ -6,7 +6,7 @@
 
 <?php slot('a-logo') ?>
 <h1 class="a-area-logo">
-Szomszéd Infós
+  <?php echo link_to1('Szomszéd Infós', '@homepage') ?>
 </h1>
 <?php end_slot() ?>
 <?php slot('a-search','') ?>
