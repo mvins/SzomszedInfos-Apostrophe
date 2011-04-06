@@ -8,6 +8,12 @@
   font-size: @size;
 }
 
+.kaffeesatz (@size) {
+  @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+  font-family: 'Yanone Kaffeesatz', Verdana, arial, serif;
+  font-size: @size;
+}
+
 /* Basic Elements
 -------------------------------------*/
 
@@ -16,7 +22,11 @@ html, body { height: 100%; }
 body {
   .serif(12px);
   color: #cfcfcf;
-  background: #151b15 url('/images/background.svg') repeat fixed top left;
+  background-color: #151b15;
+    background-image: url(/images/header.svg), url('/images/background.svg');
+    background-repeat: no-repeat, repeat;
+    background-position: top center, top left;
+    background-attachment: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 { line-height: 1.2; }
@@ -75,9 +85,15 @@ a:hover { text-decoration: underline; }
 .a-search.global form { border: 1px solid #ccc; border: 1px solid rgba(0,0,0,0.1); }	
 .a-search.a-search-sidebar form { border: 1px inset #ccc; border: 1px inset rgba(0,0,0,0.1);}
 
-.a-area-logo { float: left; position: relative; z-index: 2; }
-.a-area-logo .a-slot { margin: 0; }
-.a-area-logo .a-button-image img { float: left; }
+.a-area-logo {
+  float: left;
+  position: relative;
+  z-index: 2;
+  .kaffeesatz(36px);
+  font-weight: normal;
+  text-shadow: 0 0 35px rgb(255, 255, 255);
+  margin: 10px 0;
+}
 
 .a-area-header { float: left; width: 50%; }
 
