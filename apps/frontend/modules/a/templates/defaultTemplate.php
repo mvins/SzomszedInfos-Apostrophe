@@ -1,6 +1,9 @@
 <?php use_helper('a') ?>
 <?php slot('body_class') ?>a-default<?php end_slot() ?>
 
+<?php slot('a-subnav', '') ?>
+<?php slot('a-breadcrumb', '') ?>
+
 <?php a_area('body', array(
 	'allowed_types' => array(
 		'aRichText', 
@@ -99,107 +102,6 @@
 				'width' => 340, 
 				'height' => 220
 			),
-		),
-    'aText' => array(
-			'multiline' => true
-		),
-		'aRawHTML' => array(
-		), 
-	))) ?>
-	
-<?php a_area('sidebar', array(
-	'allowed_types' => array(
-		'aRichText', 
-		'aVideo',		
-		'aSlideshow', 
-		'aSmartSlideshow', 	
-		'aFile',
-		'aAudio',		
-		'aFeed', 		
-		'aButton', 
-		'aBlog',
-		'aEvent',
-		'aText',
-		'aRawHTML',	
-	),
-  'type_options' => array(
-		'aRichText' => array(
-			'tool' => 'Sidebar'
-		),
-		'aSlideshow' => array(
-			'width' => 200, 
-			'height' => false,
-			'resizeType' => 's',  
-			'flexHeight' => true, 
-			'constraints' => array('minimum-width' => 200),
-			'arrows' => true,
-			'interval' => false,			
-			'random' => false, 
-			'title' => false,
-			'description' => false,
-			'credit' => false,
-			'position' => false,
-			'itemTemplate' => 'slideshowItem',
-		),		
-		'aSmartSlideshow' => array(
-			'width' => 200, 
-			'height' => false,
-			'resizeType' => 's',  
-			'flexHeight' => true, 
-			'constraints' => array('minimum-width' => 200),
-			'arrows' => true,
-			'interval' => false,
-			'random' => false, 						
-			'title' => false,
-			'description' => false,
-			'credit' => false,
-			'position' => false,
-			'itemTemplate' => 'slideshowItem',
-		),		
-		'aVideo' => array(
-			'width' => 200, 
-			'flexHeight' => true, 
-			'resizeType' => 's'
-		),
-		'aFeed' => array(
-			'posts' => 5,
-			'links' => true,
-			'dateFormat' => false,
-			'itemTemplate' => 'aFeedItem',
-			// 'markup' => '<strong><em><p><br><ul><li><a>',
-			// 'attributes' => false,
-			// 'styles' => false,
-		),
-		'aAudio' => array(
-			'width' => 200,
-			'title' => true,
-			'description' => true,
-			'download' => true,
-			'playerTemplate' => 'default',
-		),		
-		'aButton' => array(
-			'width' => 200, 
-			'flexHeight' => true, 
-			'resizeType' => 's', 
-			'constraints' => array('minimum-width' => 200),
-			'rollover' => true, 
-			'title' => true, 
-			'description' => false
-		),		
-		'aEvent' => array(
-			'excerptLength' => 40, 
-			'slideshowOptions' => array(
-				'width' => 200, 
-				'flexHeight' => true,
-			)
-		),
-		'aBlog' => array(
-			'excerptLength' => 40, 
-			'slideshowOptions' => array(
-				'width' => 200, 
-				'height' => 130, 
-				'resizeType' => 'c',
-			)
 		),
     'aText' => array(
 			'multiline' => true

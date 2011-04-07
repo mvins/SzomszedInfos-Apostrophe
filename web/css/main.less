@@ -20,7 +20,7 @@
 html, body { height: 100%; }
 
 body {
-  .serif(12px);
+  .serif(14px);
   color: #cfcfcf;
   background-color: #151b15;
   background-image: url(/images/header.svg), url('/images/background.svg');
@@ -62,8 +62,9 @@ a:hover { text-decoration: underline; }
 
 /* Global Layout
 -------------------------------------*/
+@fullWidth: 960px;
 
-.a-wrapper { width: 960px; margin: 0 auto; position: relative; clear: both; }
+.a-wrapper { width: @fullWidth; margin: 0 auto; position: relative; clear: both; }
 
 .a-header { clear: both; position: relative; margin: 20px 0; float: left; width: 100%;}
 
@@ -78,7 +79,7 @@ a:hover { text-decoration: underline; }
 }
 .a-footer {
   clear: both;
-  width: 960px;
+  width: @fullWidth;
   margin: 0 auto;
   padding: 10px 0;
   text-align: center;
@@ -104,9 +105,7 @@ a:hover { text-decoration: underline; }
 
 .a-area-header { float: left; width: 50%; }
 
-.a-area-body { width:480px; float:left; }
-
-.a-area-sidebar { width:200px; float:left; margin-left: 40px; }
+.a-area-body { width: 720px; float:left; }
 
 .a-area-footer { position: relative; clear: both; }
 
@@ -121,14 +120,18 @@ a:hover { text-decoration: underline; }
 /* ASANDBOX Default Template
 -------------------------------------*/
 .a-default .a-content { clear: none; float: left; width: auto; }
-.a-default .a-area-body { width: 480px; }
+.a-default .a-area-body {
+  width: @fullWidth * 2 / 3;
+  margin-left: @fullWidth / 6;
+  margin-right: @fullWidth / 6;
+}
 .a-default .a-area-body .a-slot,
 .a-default .a-area-sidebar .a-slot { margin-bottom: 20px; }
 
 /* ASANDBOX Home Template
 -------------------------------------*/
 .a-home .a-content { width: 100%; clear: both; }
-.a-home .a-area-body { width: 720px; }
+.a-home .a-area-body { width: @fullWidth; }
 .a-home .a-area-body .a-slot,
 .a-home .a-area-sidebar .a-slot { margin-bottom: 20px; }
 
@@ -142,7 +145,6 @@ a:hover { text-decoration: underline; }
 -------------------------------------*/
 .a-nav-main
 {
-  @fullWidth: 958px;
   @padding-left: 10px;
   @padding-right: @padding-left;
   @borderBlur: 10px;
@@ -159,7 +161,7 @@ a:hover { text-decoration: underline; }
   .a-nav-item {
     float: left;
     display: inline;
-    width: 118px;
+    width: 130px;
     height: 20px;
     line-height: 20px;
 
