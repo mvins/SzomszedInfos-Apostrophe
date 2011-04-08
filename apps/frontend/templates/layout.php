@@ -5,9 +5,9 @@
 <?php // YES, you may ABSOLUTELY replace this layout.php with your own.  ?>
 
 <?php slot('a-logo') ?>
-<h1 class="a-area-logo">
+<h2 class="a-area-logo">
   <?php echo link_to1('Szomszéd Infós', '@homepage') ?>
-</h1>
+</h2>
 <?php end_slot() ?>
 <?php slot('a-search','') ?>
 

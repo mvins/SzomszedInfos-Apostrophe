@@ -31,8 +31,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 { line-height: 1.2; }
 
-h1 { font-size: 225%; }
-h2 { font-size: 185%; }
+h1 { font-size: 185%; margin: 0.5em 0 0 0; }
 h3 { font-size: 160%; }
 h4 { font-size: 125%; }
 h5 { font-size: 110%; }
@@ -119,8 +118,9 @@ a:hover { text-decoration: underline; }
 
 /* ASANDBOX Default Template
 -------------------------------------*/
-.a-default .a-content { clear: none; float: left; width: auto; }
-.a-default .a-area-body {
+.a-default .a-content {
+  clear: none;
+  float: left;
   width: @fullWidth * 2 / 3;
   margin-left: @fullWidth / 6;
   margin-right: @fullWidth / 6;
@@ -131,7 +131,7 @@ a:hover { text-decoration: underline; }
 /* ASANDBOX Home Template
 -------------------------------------*/
 .a-home .a-content { width: 100%; clear: both; }
-.a-home .a-area-body { width: @fullWidth; }
+.a-home .a-area-body { width: 100%; }
 .a-home .a-area-body .a-slot,
 .a-home .a-area-sidebar .a-slot { margin-bottom: 20px; }
 

@@ -4,6 +4,10 @@
 <?php slot('a-subnav', '') ?>
 <?php slot('a-breadcrumb', '') ?>
 
+<h1>
+<?php a_slot('title', 'aText') ?>
+</h1>
+
 <?php a_area('body', array(
 	'allowed_types' => array(
 		'aRichText', 
