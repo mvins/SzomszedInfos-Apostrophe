@@ -157,7 +157,7 @@ function aConstructor()
 
   this.unobfuscateEmail = function(id, email, label)
   {
-    $('#' + id).attr('href', unescape(email)).html(unescape(label));
+    $('[id=' + id + ']').attr('href', unescape(email)).html(unescape(label));
   }
 	
 	// Turns a form into an AJAX form that updates the element
