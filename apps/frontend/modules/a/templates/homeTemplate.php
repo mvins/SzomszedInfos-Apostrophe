@@ -27,7 +27,8 @@
 		  'tool' => 'Main',
 			// 'allowed-tags' => array(),
 			// 'allowed-attributes' => array('a' => array('href', 'name', 'target'),'img' => array('src')),
-			// 'allowed-styles' => array('color','font-weight','font-style','text-align'),
+			'allowed-styles' => array_merge(sfConfig::get('app_aToolkit_allowed_styles',  array()),
+              array('float', 'clear', 'width')),
 		), 	
 		'aVideo' => array(
 			'width' => 720, 

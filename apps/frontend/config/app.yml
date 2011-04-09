@@ -240,8 +240,8 @@ all:
     allowed_attributes:
       a: [ href, name, target ]
       img: [ src ]
-      div: [ style ]
-      p: [ style ]
+      div: [ style, class ]
+      p: [ style, class ]
     allowed_styles: [ 'font-weight', 'font-style', 'text-align', 'font-size' ]
   # options for sfSyncContentPlugin, used to sync the database and also
   # data files such as the media plugin's images and the search indexes. 
