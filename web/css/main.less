@@ -57,10 +57,13 @@ a {
 a:focus,
 a:hover { text-decoration: underline; }
 
+img {
+  border-width: 0;
+}
 
 /* Global Layout
 -------------------------------------*/
-@fullWidth: 960px;
+@fullWidth: 860px;
 
 .a-wrapper { width: @fullWidth; margin: 0 auto; position: relative; clear: both; }
 
@@ -82,6 +85,9 @@ a:hover { text-decoration: underline; }
   padding: 10px 0;
   text-align: center;
   .sans(12px);
+  img {
+    vertical-align: middle;
+  }
 }
 .a-search.global { width: auto; clear: both; float: right; position: absolute; top: 20px; right: 20px; z-index: 3;}
 .a-search.global form { border: 1px solid #ccc; border: 1px solid rgba(0,0,0,0.1); }	
@@ -103,7 +109,7 @@ a:hover { text-decoration: underline; }
 
 .a-area-header { float: left; width: 50%; }
 
-.a-area-body { width: 720px; float:left; }
+.a-area-body { float:left; }
 
 .a-area-footer { position: relative; clear: both; }
 
@@ -120,9 +126,9 @@ a:hover { text-decoration: underline; }
 .a-default .a-content {
   clear: none;
   float: left;
-  width: @fullWidth * 2 / 3;
-  margin-left: @fullWidth / 6;
-  margin-right: @fullWidth / 6;
+  width: @fullWidth * 3 / 4;
+  margin-left: @fullWidth / 8;
+  margin-right: @fullWidth / 8;
 }
 .a-default .a-area-body .a-slot,
 .a-default .a-area-sidebar .a-slot { margin-bottom: 20px; }

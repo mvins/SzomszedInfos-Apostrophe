@@ -28,7 +28,7 @@
 			// 'allowed-tags' => array(),
 			// 'allowed-attributes' => array('a' => array('href', 'name', 'target'),'img' => array('src')),
 			'allowed-styles' => array_merge(sfConfig::get('app_aToolkit_allowed_styles',  array()),
-              array('float', 'clear', 'width')),
+              array('float', 'clear', 'width', 'margin-right', 'padding-left', 'padding-top', 'background-image', 'background-repeat', 'margin', 'padding')),
 		),
 		'aVideo' => array(
 			'width' => 720,
