@@ -8,10 +8,10 @@ all:
   a:
 
     pager_nb_links: 5
-    
+
     # includes apostrophe css into the project
     use_bundled_stylesheet: true
-    
+
     # default button order for P'unk Projects
     global_button_order:
       - blog
@@ -19,11 +19,11 @@ all:
       - media
       - categories
       - tags
-      - users   
+      - users
       - reorganize
-    
+
     persistent_global_toolbar: false # false if you want to hide the global toolbar to logged-out visitors
-    
+
     # If true, there will be a language switcher next to the login/logout button
     # i18n_switch: true
     # i18n_languages: [en, fr, de, es, ru]
@@ -51,23 +51,23 @@ all:
     # are deemed worthy of membership in the guest group. If you comment out
     # this line, any authenticated user will be able to view locked pages
     view_locked_sufficient_credentials: view_locked
-    
-    # Sets the level of CMS Pages allowed to be created by the client 
-    # (e.g. page_level: 1 means the site can only have pages that are 
+
+    # Sets the level of CMS Pages allowed to be created by the client
+    # (e.g. page_level: 1 means the site can only have pages that are
     # peers to the homepage peers A.K.A. top navigation pages)
-    # max_page_levels: 3  
+    # max_page_levels: 3
 
     # Maximum number of child pages allowed to be created at any given level
-    # max_children_per_page: 8 
-    
+    # max_children_per_page: 8
+
     # Message displayed next to button if client tries to click
     # max_page_limit_message: Cannot create a child page here.
-    
+
     addslot_button_style: big
     history_button_style: no-label big
     delete_button_style: no-label
     credit: false
-    
+
     slot_types:
       aBlog: Blog Posts
       aBlogSingle: Blog Post
@@ -90,13 +90,13 @@ all:
       #
       # You can enable additional slot types implemented at the application level or via
       # plugins by adding their type names here along with a short descriptive label.
-      # 
+      #
       # Example:
       #
       # baseball: "Baseball Box Score"
       #
       # (This assumes you have implemented such a slot type of course.)
-      
+
     # slot_variants:
     #   aSlideshow:
     #     normal:
@@ -116,8 +116,8 @@ all:
     #       options:
     #         interval: 4
     #         title: true
-    #         arrows: false         
-    #         itemTemplate: slideshowItemCompact            
+    #         arrows: false
+    #         itemTemplate: slideshowItemCompact
     #   aSmartSlideshow:
     #     normal:
     #       label: Normal
@@ -137,16 +137,16 @@ all:
     #       options:
     #         interval: 4
     #         title: true
-    #         arrows: false         
-    #         itemTemplate: slideshowItemCompact            
+    #         arrows: false
+    #         itemTemplate: slideshowItemCompact
 
     templates:
       # "a:" contains "ordinary page templates"
       a:
         default: Default Page
         home: Home Page
-      # This is how you enable engines as page type choices. If the 
-      # engine supports alternate page templates you can specify more 
+      # This is how you enable engines as page type choices. If the
+      # engine supports alternate page templates you can specify more
       # than one entry for an engine
       aMedia:
         default: Media
@@ -157,15 +157,15 @@ all:
 
     # Disable ALL bundled CSS and JavaScript. Not recommended.
     # See below for a more selective approach
-    
+
     # use_bundled_stylesheets: false
     # use_bundled_javascripts: false
-    
+
     # Selectively disable or override various bundled styles and javascripts.
     # Everything you leave alone or set to true loads by default
-    
+
     # Uncomment below to disable the styles for that section
-    
+
     # use_bundled_stylesheets:
        # admin: false
        # forms: false
@@ -175,12 +175,12 @@ all:
        # area-slots: false
        # buttons: false
        # colors: false
-       # utility: false       
-       
+       # utility: false
+
        # OR, to override a specific stylesheet with a different one:
        # engines: /foo/bar.css
 
-    
+
     # Uncomment below to disable the Javascripts for that section
     # (not recommended) or override them with a different release
     # (probably OK for a new jquery release for instance)
@@ -195,15 +195,15 @@ all:
       # jquery-hover-intent: false
       # jquery-ui: false
       # tagahead: false
-       
+
       # To override one set a different path instead of false
       # jquery: /js/myjquery.js
-           
+
     # We're using it as the sitewide layout instead (see view.yml)
     use_bundled_layout: false
 
     # do_not_edit: true   # Quickly and easily display the 'Do Not Edit' message on staging sites after launch.
-      
+
   aAdmin:
     web_dir: /apostrophePlugin
 
@@ -218,11 +218,11 @@ all:
     admin_credential: media_admin
     upload_credential: media_upload
     use_bundled_layout: false
-    embed_codes: true        
-    
+    embed_codes: true
+
   aEvents:
-    display_calendar: true 
-  
+    display_calendar: true
+
   # aBlog:
     # Disqus Comments
     # Once you have a Disqus account, enable comments and put in your Disqus shortname
@@ -231,7 +231,7 @@ all:
 
     # enable this if you are developing locally to see comments
     # disqus_developer: true
-      
+
   aToolkit:
     indexes:
       - 'aPage'
@@ -244,7 +244,7 @@ all:
       p: [ style, class ]
     allowed_styles: [ 'font-weight', 'font-style', 'text-align', 'font-size', 'vertical-align' ]
   # options for sfSyncContentPlugin, used to sync the database and also
-  # data files such as the media plugin's images and the search indexes. 
+  # data files such as the media plugin's images and the search indexes.
   # You can extend this if you have more data file folders
 
   sfSyncContent:
@@ -255,9 +255,9 @@ all:
       # If you use P'unk Avenue stuff
       - "data/a_writable"
 
-  # For us this is the right place to find the netpbm utilities and ghostscript 
+  # For us this is the right place to find the netpbm utilities and ghostscript
   # (pnmtopng, gs, etc). Change it if your environment differs. Note that the
-  # default PATH is still searched too, so on most production servers you can 
+  # default PATH is still searched too, so on most production servers you can
   # leave this setting alone and not break it out separately for prod
 
   aimageconverter:
@@ -286,7 +286,7 @@ all:
 # the mainstream sandbox. We should always turn it on again when creating
 # our own client sites
 
-# WARNING: if you turn off all settings here for 'prod', COMMENT OUT the 
+# WARNING: if you turn off all settings here for 'prod', COMMENT OUT the
 # 'prod' and 'a' lines too or you will shut off ALL of your Apostrophe settings
 
 prod:
