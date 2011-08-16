@@ -16,6 +16,7 @@ default:
     # Required for blog slots
     - /apostropheBlogPlugin/js/aBlog.js
     - /sfGoogleLoginPlugin/js/sfGoogleLogin.js
+    - /js/tabs.js
 
   has_layout:     true
   layout:         layout

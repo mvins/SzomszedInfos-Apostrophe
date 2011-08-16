@@ -13,10 +13,20 @@
    height="54.055485"
    id="svg3101"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
-   sodipodi:docname="footer.svg">
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="footer.svg"
+   inkscape:export-filename="/home/vins/Webdevelopment/szomszedinfos/SzomszedInfos-Apostrophe/web/images/footer.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs3103">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 27.027742 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="3007.3342 : 27.027742 : 1"
+       inkscape:persp3d-origin="1503.6671 : 18.018495 : 1"
+       id="perspective30" />
     <filter
        color-interpolation-filters="sRGB"
        id="filter4191"
@@ -44,19 +54,6 @@
            id="feMergeNode4203"
            in="SourceGraphic" />
       </feMerge>
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter3771"
-       x="-0.0061770631"
-       width="1.0123541"
-       y="-0.20931745"
-       height="1.4186349"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="2.5210151"
-         id="feGaussianBlur3773" />
     </filter>
     <filter
        color-interpolation-filters="sRGB"
@@ -118,7 +115,7 @@
      pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="1"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
      inkscape:cx="1086.6784"
@@ -131,9 +128,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1680"
-     inkscape:window-height="1027"
+     inkscape:window-height="999"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"

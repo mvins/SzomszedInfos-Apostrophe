@@ -166,7 +166,7 @@ all:
 
     # Uncomment below to disable the styles for that section
 
-    # use_bundled_stylesheets:
+    use_bundled_stylesheets:
        # admin: false
        # forms: false
        # components: false
@@ -179,6 +179,7 @@ all:
 
        # OR, to override a specific stylesheet with a different one:
        # engines: /foo/bar.css
+      jquery-ui : '/css/jquery-ui.css'
 
 
     # Uncomment below to disable the Javascripts for that section
@@ -240,7 +241,7 @@ all:
     allowed_attributes:
       a: [ href, name, target, title ]
       img: [ src, alt ]
-      div: [ style, class ]
+      div: [ style, class, id ]
       p: [ style, class ]
     allowed_styles: [ 'font-weight', 'font-style', 'text-align', 'font-size', 'vertical-align' ]
   # options for sfSyncContentPlugin, used to sync the database and also
